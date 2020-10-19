@@ -25,7 +25,7 @@ Demo	A proof-of-concept version of a game, typically released to the public for 
 Dev	Slang for “developer” or “development.”
 Edge	The connection between two vertices of an angle.
 Event	A game action that is completed through user input. When a player presses a button on their controller and the on-screen character jumps, this is considered an event.
-A game action that is completed through user input. When a player presses a button on their controller and the on-screen character jumps, this is considered an event.	Any aspect of a game that creates its value and purpose. Mechanics, story, and level design are all considered features.
+Feature Any aspect of a game that creates its value and purpose. Mechanics, story, and level design are all considered features.
 Game design document (GDD)	A professional document created by game developers to fully define and justify the game they’ve created or plan to create, usually as part of their pitch to a publisher. The story, gameplay, characters, level design, and other integral pieces of a game are laid out and described in a game design document.
 Game designer	One who designs the aesthetic and structure of a game. NOTE: The terms “game designer” and “game developer” are often used interchangeably, though the two roles technically vary.
 Game developer	One who turns a game design into a playable game through coding and in-engine asset creation. NOTE: The terms “game designer” and “game developer” are often used interchangeably, though the two roles technically vary.

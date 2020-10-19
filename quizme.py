@@ -1,5 +1,6 @@
 import os
 import random
+from datetime import datetime
 
 # GLOBALS
 QUIZES_LOCATION = "quizes"
@@ -44,12 +45,16 @@ def ProcessTermsForQuiz(terms):
         termsLibrary.append({"Term":pair[0], "Definition":pair[1]})
     return termsLibrary
 
+def GetRandomNumber(minSize, maxSize):
+    randNumb = random.randint(minSize, maxSize - 1)
+    return randNumb
+
 def RandomizeSelection(termsLibrary):
     
     # Variables
     maxChoice = 3
     totalChoices= [0,1,2,3]
-    currentPosition = 0    
+    currentPosition = 0
     finalQuiz = []
     questionDict = {"Term":"", "Definition":"","Answer":False}
     questionArrayStraight = []
@@ -58,8 +63,10 @@ def RandomizeSelection(termsLibrary):
 
     # Process Answers into groups of questions
     for term in termsLibrary:
+
+        # Randomize order of choices
         random.shuffle(totalChoices)
-                
+        
         # Record correct Answer
         questionDict['Term'] = term['Term']
         questionDict['Definition'] = term['Definition']
@@ -68,19 +75,29 @@ def RandomizeSelection(termsLibrary):
         questionArrayStraight.append(qdCopy)
         randomNumberSelection.append(currentPosition)
         
-        # Record bad Answers
+        # Add 3 additional definitions to multipe choices
         for i in range(maxChoice):
-            randomNumber = random.randint(0, len(termsLibrary) - 1)
+            # Pull definition from array from random position    
+            randomNumber = GetRandomNumber(0, len(termsLibrary))
+
+            # Cannot add defition if it is current term
+            while randomNumber == currentPosition:
+                randomNumber = GetRandomNumber(0, len(termsLibrary))
+
+            # Cannot add defition if defition already has been selected
+            for number in randomNumberSelection:
+                while number == randomNumber:
+                    randomNumber = GetRandomNumber(0, len(termsLibrary))
+
+            # Add defition to list of possible answers
             randomNumberSelection.append(randomNumber)
-            
-            if termsLibrary[randomNumber]['Term'] == termsLibrary[0]['Term']:
-                randomNumber = random.randint(0, len(termsLibrary) - 1)
-                
             questionDict['Term'] = termsLibrary[randomNumber]['Term']
             questionDict['Definition'] = termsLibrary[randomNumber]['Definition']
             questionDict['Answer'] = False
             qdCopy = questionDict.copy()
-            questionArrayStraight.append(qdCopy)
+            randomNumberSelection.append(currentPosition)
+            questionArrayStraight.append(qdCopy)                 
+
         
         # Randomize Answer positions
         for i in totalChoices:
@@ -95,6 +112,7 @@ def RandomizeSelection(termsLibrary):
         questionArrayRandom = []
         randomNumberSelection = []
     
+    random.shuffle(finalQuiz)
     return finalQuiz
 
 def Clear():
@@ -148,7 +166,7 @@ def PlayQuizGame(quiz):
     grade = (correctAnswer / totalQuestions) * 100
     print("Answers: %d / %d" %(correctAnswer, totalQuestions))
     print("Grade: %d%% " %(grade))
-
+    input("Hit any key to exit.")
 
 # MAIN
 if __name__ == "__main__":
