@@ -1,0 +1,46 @@
+Action-adventure	A game where players overcome a series of small and large obstacles while progressing through multiple levels or scenarios.
+Augmented reality (AR)	An experience that combines gameplay with augmented reality features overlaid on a physical location. Examples of mobile AR games include Pokémon Go and Jurassic World Alive.
+Battle royale	An online game in which the game map serves as an arena for many combatants to find and fight one another, with a typical goal of being the last player standing.
+Bullet hell	Games that rely on shooting weapons and dodging return fire as their primary mechanics, often on an exaggerated and grandiose level.
+Casual	Games that offer quick entry into gameplay through minimal mechanics.
+Cooperative	A game or style of gameplay that rewards collaboration rather than pitting players against each other.
+Couch co-op	A cooperative multiplayer game that can only be played by having two or more players in the same physical location.
+Downloadable content (DLC)	Additions or expansions to a game that can be downloaded and added through a typically simple in-app installation process.
+Educational	A game whose purpose is to educate players in a particular skill or subject matter.
+Esports	Professional competitive gaming events.
+Fighting	A game whose primary mechanic is hand-to-hand combat in a player(s) versus player(s) (PvP) setting.
+First-person shooter (FPS)	A game from the shooter’s perspective, as they point the gun at different targets.
+Free-to-play (F2P)	A game that is free to download and play, though the studio/publisher may monetize it through microtransactions (such as IAPs), rewarded videos, ads, or other means.
+Horror	A game whose design and mechanics are built around inducing fear and dread in players.
+Hyper-casual	A game that usually offers a single, easy-to-understand mechanic that leads to instant gameplay gratification.
+In-app purchases (IAPs)	Additional or replenishable items you can buy from within a game.
+Massively multiplayer online role-playing game (MMORPG)	A role-playing game that typically allows hundreds or thousands of online players to play and interact in the same gaming world.
+Metroidvania	A subgenre of action-adventure games whose design and mechanics are heavily inspired by the games Metroid and Castlevania.
+Microtransaction	A small transaction completed online, usually for an in-app purchase.
+Multiplayer	A game that allows more than one player to play at any given time.
+Multiplayer online battle arena (MOBA)	A type of strategy game that has teams of players pitted against one another, with each team’s members coordinating their attacks and defenses to achieve victory.
+Non-playable character, or non-player character (NPC)	An in-game character controlled by artificial intelligence (AI).
+Open-world	A game where the player is given an extremely large world in which to explore and play.
+Party	Typically 4- to 8-player multiplayer games that allow friends to compete against one another for rewards and victory.
+Platformer	A game that is typically two-dimensional, in which players run, climb, and jump on platforms in order to make progress.
+Player(s) versus player(s) (PvP)	A game where one or more players compete against one or more players.
+Point-and-click	A game that relies on mouse clicks in order to advance characters, solve puzzles, and make choices.
+Puzzle	A game that requires players to solve visual or logic problems, find matching items/patterns, etc., to accumulate points or move to a new level. Games like Monument Valley fall in this genre.
+Racing	Any game whose primary mechanic is competitive racing against AI or other players.
+Real-time strategy (RTS)	A game in which players typically control a squadron of characters and try to dominate a computer or player-controlled opposing army. Games like Civilization, Age of Empires, and the original Warcraft/Warcraft II fall in this genre.
+Rhythm	A game that relies on controller inputs that correspond with rhythmic prompting, usually through music or sound effects combined with visual cues.
+Roguelike	A type of role-playing action-adventure game in which players typically have one life to make it to the end of the game, or at least very limited opportunities for resurrection.
+Role-playing game (RPG)	An immersive play style that typically encourages immersion and interaction, as well as the ability to heavily customize and personalize your playable characters. Sci-Fi and Fantasy are popular types of RPG.
+Sandbox	A game that allows players to build their playable world around them.
+Shooter	A genre of game based on gunplay. There are first-person shooters, third-person shooters, and other subgenres.
+Simulation (Sim)	A game that imitates real-life activities and functions, usually in a very accurate way.
+Souls-like	A type of action-adventure game that typically relies on “dodge or die” mechanics à la Dark Souls.
+Sports	A game where a team or individual sport such as football, soccer, tennis, or cycling has been simulated.
+Stealth	A game that relies on players remaining hidden and covertly making their way past or through obstacles to succeed.
+Strategy	A game that requires planning and organization to advance (and to avoid setbacks) towards achieving an end goal.
+Survival	A game in which it is necessary for players to keep their characters safe and healthy, usually by outrunning enemies while seeking food, water, and shelter.
+Text-based	A largely obsolete style of gameplay in which players are presented with scenarios in text form, and they must respond with text commands to advance the game.
+Third-person shooter	A shooter game where the perspective is from an “objective” camera, showing the shooter and their environment.
+Tile-matching	A game where players must identify or match a number of similar tiles. A common type is a match 3 (match-three) game. Tetris falls into this genre.
+Virtual reality (VR)	A game that requires players to wear a virtual reality headset and use input devices such as a keyboard or hand controllers to experience gameplay in a virtual 3D environment. Examples include Beat Saber and Rock Band VR.
+Visual novel	A game style that relies on static sprites or art pieces that correspond with text-based storytelling, typically played by choosing predetermined responses to the story being told. Often uses an anime style.

@@ -28,7 +28,7 @@ def BuildQuiz(quiz):
     termsLibrary = []
 
     # Reading quiz file and creating a term array
-    with open(filepath, "r") as termData:
+    with open(filepath, "r", encoding="utf8") as termData:
         for line in termData:
            terms.append(line.rstrip('\n'))
 
@@ -112,6 +112,7 @@ def PlayQuizGame(quiz):
 
     print("####################################################")
     print("# Welcome to the quiz game.")
+    print("# There are a total of %d questions." %(totalQuestions))
     print("# You can quit anytime by entering '5' as a choice.")
     print("####################################################\n\n\n")
 

@@ -1,0 +1,71 @@
+AAA	Games that are created and released typically by mid-size or major publishers; usually anything that cannot be classified as “indie.”
+Agent	An in-game character or object that uses AI to interact with other objects in its environment.
+AI	Artificial intelligence; an in-game entity whose functionality is dependent on computer code rather than human input. NPCs are common AI entities.
+Alpha	A game version that contains all major features and most assets. This version of a game is usually circulated internally to test for quality and bugs.
+Asset	Shorthand for anything that goes into a video game – characters, objects, sound effects, maps, environments, etc.
+Baking	A method of preprocessing performed on game assets and data to ensure they load and perform well in real-time and do not slow down gameplay due to requiring a lot of processor or GPU capacity.
+Balance	Creating a stable and predictable gaming experience. For example, by making sure weapons deal appropriate damage and armor absorbs the damage adequately, as opposed to giving one weapon considerably more power than others, or by making levels too difficult to enjoyably complete. However, imbalanced gameplay is sometimes done on purpose.
+Beta	A game version that contains all major features and assets. This version of a game contains no major bugs and is on its way to code release. Beta releases are occasionally given a limited release to the public for bug reporting and critical feedback.
+Bug	Any development issue that makes a game unenjoyable, unstable, or unplayable in its current state.
+Build	Game development lingo for the “version” of a game. Also known as a “release” or “release candidate.”
+Cert	Certification. The process whereby console manufacturers test a game for compatibility with their hardware and distribution platforms. This does not include playtesting or quality
+Cinematics/cutscenes	Segments of a game that are not controlled by the player. These are usually used to draw attention to major story points.
+Clipping	The process of predefining certain areas in a game in which rendering occurs, which optimizes game performance in those selected areas.
+Clipping region	An area of a game that is optimized for rendering GameObjects and terrain.
+Code	Computer languages used for creating and defining functionality in software. Unity uses C# (C Sharp) for coding games.
+Code release	The version of a game that is ready to be sent to console manufacturers for certification.
+Collision	The action of two objects coming together and touching/striking one another in-game. The simple act of your playable character standing on a floor in a house requires collision parameters on both the character’s feet and the floor, otherwise, that character would simply fall through the floor.
+Collision detection	A process that determines when and where an object will “collide” with another object in-game. This is typically done using an object called a hitbox that will either prevent a collision or decide what area needs to be reached to create a collision.
+Console	A type of personal computer specifically built for gaming. Sony PlayStation, Microsoft Xbox, and Nintendo Switch are all examples of consoles.
+Content	Everything that makes up your game, such as assets, components, GameObjects, and scripts.
+Cross-platform	Something that can work or be used on different platforms.
+Culling	The detection, isolation, and rejection of any unnecessary data in game design.
+Debug	Finding and removing bugs in a game. Sometimes referred to as “bug-bashing.”
+Demo	A proof-of-concept version of a game, typically released to the public for promotional and/or feedback purposes.
+Dev	Slang for “developer” or “development.”
+Edge	The connection between two vertices of an angle.
+Event	A game action that is completed through user input. When a player presses a button on their controller and the on-screen character jumps, this is considered an event.
+A game action that is completed through user input. When a player presses a button on their controller and the on-screen character jumps, this is considered an event.	Any aspect of a game that creates its value and purpose. Mechanics, story, and level design are all considered features.
+Game design document (GDD)	A professional document created by game developers to fully define and justify the game they’ve created or plan to create, usually as part of their pitch to a publisher. The story, gameplay, characters, level design, and other integral pieces of a game are laid out and described in a game design document.
+Game designer	One who designs the aesthetic and structure of a game. NOTE: The terms “game designer” and “game developer” are often used interchangeably, though the two roles technically vary.
+Game developer	One who turns a game design into a playable game through coding and in-engine asset creation. NOTE: The terms “game designer” and “game developer” are often used interchangeably, though the two roles technically vary.
+Game development	The act of creating a game; sometimes referred to as “gamedev.” The game development process typically requires input from one or more game designers, artists, programmers, animators, testers, project managers, etc., though some games have been created by just one or two game developers.
+Game engine	Software that offers a suite of tools and features to game developers in order to build their games professionally and efficiently.
+Gold master	A game that has met all publisher and platform requirements, includes all assets and features, and is considered ready for launch.
+Hitbox	An invisible object created around another GameObject that determines the area where collisions with other objects will occur.
+Keyframing	In game development, the act of putting an asset into a standalone frame of action and capturing that moment, to be followed by others, until there is a series of these frames to effectively convey animation of the asset.
+Lightmap	A pre-rendered lighting system that is stored for continual use in a game.
+Localization	Translating a game into multiple languages.
+Mechanics	The essential functions, rules, and outcomes that create gameplay. Mechanics are what make a game rewarding, entertaining, and interactive.
+Mesh	A collection of vertices, edges, and faces that act as the foundation of a model in a video game.
+Mobile	A handheld device with the computing power of a personal computer and features for real-time voice and data communications.
+Mobile gaming	Because you can play a mobile game almost anywhere, mobile gaming is one of the most popular forms of gaming in the world.
+Model	A fully 3D asset in a video game that is created by adding textures and other features to a mesh.
+Multiplatform	Compatible with more than one kind of hardware or operating system.
+Parallax	A technique used in 2D game development where background images move at a different speed relative to their foreground counterparts during player/scene movement, creating depth and scale.
+PC	Abbreviation for personal computer, typically referring to a desktop or laptop computer. Many gaming enthusiasts prefer PC gaming over console or mobile gaming due to its increased performance abilities and customization options.
+Physics	Utilizing real-life laws of physics in games to make movement and environmental behaviors more realistic.
+Pixel	The smallest building-block of a screen image; a single point of light or color that, when combined with other pixels, forms a picture or larger graphical element.
+Pixel art	A design style that is typically limited to 8 and 16-bit graphics in order to closely match classic arcade and console graphics.
+Playtesting	Playing through each new build of a game in order to find bugs, ensure gameplay flow, and explore potential opportunities for improvement.
+Polygon	A computer-programmed series of lines that form a three-dimensional (3D) object.
+Prop	Interactive objects in a game.
+Prototyping	Creating different early versions of a game to explore different mechanics and features to decide which will be best for the full game.
+Quality assurance (QA)	Testing a game for its overall quality, which normally includes finding and eliminating bugs.
+Ray tracing	A light-rendering technique that simulates the interaction of light with objects in a game in such a way that it looks ultra-realistic.
+Render	The act of continuously generating and refreshing a 2D or 3D image through computer processing.
+Scripting	Another word for coding or programming; the act of writing code.
+Shaders	Small programs within larger game development processes typically used to control lighting and shadow effects.
+Skeletal animation	A type of computer animation that puts a set of “bones” inside a mesh, allowing the otherwise static mesh to be articulated and posed for animation keyframing.
+Sprite	Bitmap images, often used as 2D GameObjects. In 3D, sprites generally function as textures.
+Terrain	Anything that creates the environment in a video game.
+Texture	A visual wrapping placed around GameObjects, such as the skin on a character.
+Texture mapping	The process of applying textures to GameObjects.
+Tile	An image that is used to create other, bigger images (such as a platform) in a 2D game.
+Tilemap	A system that stores and handles tile assets for creating 2D levels.
+UI/GUI	User interface / graphical user interface. Menus, inventories, and other non-game interactive systems on-screen.
+UX	User experience. Ensuring that the design and implementation of a game is pleasing and user-friendly.
+Vector graphic	A type of graphic image that uses two-dimensional points to connect lines and curves, allowing it to be scaled and customized.
+Vertex	A point in 2D or 3D space. Joining two vertices together forms an edge.
+Vertical slice	A proof-of-concept portion of a game, typically given to investors or publishers for a chance at receiving funding and partnerships.
+Visual scripting	A method of organizing and generating code visually, where developers can create and connect graphical nodes to organize different GameObjects, events, programs, etc.
