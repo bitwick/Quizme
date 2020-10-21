@@ -10,7 +10,8 @@ def GetAvailableQuizes(location):
     quizes = []
     for root, dirs, files in os.walk(location):
         for file in files:
-           quizes.append(file)
+            if not file == ".gitignore":
+                quizes.append(file)
     return quizes
 
 def PickQuiz(quizes):
